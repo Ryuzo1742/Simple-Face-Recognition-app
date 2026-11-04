@@ -34,4 +34,4 @@ registered students, and marks attendance for the selected hour.
 See [SETUP.md](SETUP.md) for installation steps.
 
 ## Authors
-Shankar Menon P 
+Ryuzo1742
