@@ -1,0 +1,1885 @@
+2026-10-24 21:02:22 | INFO     | __main__ | Starting Face Recognition Attendance System
+2026-10-24 21:02:22 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:02:23 | INFO     | gui.app | Navigated to dashboard page
+2026-10-24 21:02:27 | INFO     | gui.app | Switched appearance mode to dark
+2026-10-24 21:02:29 | INFO     | gui.app | Navigated to register page
+2026-10-24 21:02:31 | INFO     | gui.app | Navigated to recognize page
+2026-10-24 21:02:33 | INFO     | gui.app | Navigated to attendance page
+2026-10-24 21:02:41 | INFO     | gui.app | Navigated to students page
+2026-10-24 21:02:42 | INFO     | gui.app | Navigated to settings page
+2026-10-24 21:02:54 | INFO     | gui.app | Navigated to students page
+2026-10-24 21:02:55 | INFO     | gui.app | Navigated to attendance page
+2026-10-24 21:03:07 | INFO     | gui.app | Navigated to recognize page
+2026-10-24 21:03:09 | INFO     | gui.app | Navigated to attendance page
+2026-10-24 21:03:14 | INFO     | gui.app | Navigated to students page
+2026-10-24 21:03:15 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-10-24 21:03:16 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:03:16 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": []}
+2026-10-24 21:03:16 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-10-24 21:03:16 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:03:18 | INFO     | gui.app | Navigated to dashboard page
+2026-10-24 21:03:20 | INFO     | gui.app | Navigated to register page
+2026-10-24 21:04:13 | INFO     | database.db_manager | Registered student 1 (Shankar)
+2026-10-24 21:04:13 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:04:14 | INFO     | core.camera_capture | Camera 0 opened
+2026-10-24 21:04:28 | INFO     | core.camera_capture | Camera 0 released
+2026-10-24 21:04:37 | INFO     | gui.app | Navigated to students page
+2026-10-24 21:04:38 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-10-24 21:04:39 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:04:39 | INFO     | core.trainer | Loading face detector...
+2026-10-24 21:04:39 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:04:39 | INFO     | core.trainer | Face detector loaded
+2026-10-24 21:04:39 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+2026-10-24 21:04:40 | INFO     | core.trainer | Face recognizer loaded
+2026-10-24 21:04:40 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-10-24 21:04:40 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-10-24 21:04:42 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-10-24 21:04:42 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-10-24 21:04:43 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-10-24 21:04:43 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-10-24 21:04:45 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-10-24 21:04:45 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-10-24 21:04:46 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-10-24 21:04:46 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-10-24 21:04:48 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-10-24 21:04:48 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-10-24 21:04:50 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-10-24 21:04:50 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-10-24 21:04:51 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-10-24 21:04:51 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-10-24 21:04:53 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-10-24 21:04:53 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-10-24 21:04:55 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-10-24 21:04:55 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-10-24 21:04:56 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-10-24 21:04:56 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-10-24 21:04:57 | INFO     | database.db_manager | Saved embedding for 1
+2026-10-24 21:04:57 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-10-24 21:04:57 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": [{"student_id": "1", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}]}
+2026-10-24 21:04:57 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-10-24 21:04:39 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:04:39 | INFO     | core.trainer | Loading face detector...
+2026-10-24 21:04:39 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:04:39 | INFO     | core.trainer | Face detector loaded
+2026-10-24 21:04:39 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-10-24 21:04:40 | INFO     | core.trainer | Face recognizer loaded
+2026-10-24 21:04:40 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-10-24 21:04:40 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-10-24 21:04:41 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-10-24 21:04:42 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-10-24 21:04:42 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-10-24 21:04:43 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-10-24 21:04:43 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-10-24 21:04:44 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-10-24 21:04:45 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-10-24 21:04:45 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-10-24 21:04:46 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-10-24 21:04:46 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-10-24 21:04:47 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-10-24 21:04:48 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-10-24 21:04:48 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-10-24 21:04:49 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-10-24 21:04:50 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-10-24 21:04:50 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-10-24 21:04:51 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-10-24 21:04:51 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-10-24 21:04:52 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-10-24 21:04:53 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-10-24 21:04:53 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-10-24 21:04:54 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-10-24 21:04:55 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-10-24 21:04:55 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-10-24 21:04:56 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-10-24 21:04:56 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-10-24 21:04:57 | INFO     | database.db_manager | Saved embedding for 1
+2026-10-24 21:04:57 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-10-24 21:04:58 | INFO     | gui.app | Navigated to attendance page
+2026-10-24 21:05:00 | INFO     | gui.app | Navigated to recognize page
+2026-10-24 21:05:59 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/1/img_015.jpg 0.5 1
+2026-10-24 21:05:59 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Loading face detector...
+2026-10-24 21:05:59 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Face detector loaded
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-10-24 21:06:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-10-24 21:06:01 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 1 newly marked present
+2026-10-24 21:06:01 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 56, "y": 28, "w": 179, "h": 217, "student_id": "1", "name": "Shankar", "confidence": 0.6371485148709708, "attendance_marked": true}]}
+2026-10-24 21:06:01 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-10-24 21:05:59 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Loading face detector...
+2026-10-24 21:05:59 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Face detector loaded
+2026-10-24 21:05:59 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-10-24 21:06:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-10-24 21:06:01 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 1 newly marked present
+2026-10-24 21:06:18 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/1/img_025.jpg 0.5 1
+2026-10-24 21:06:19 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Loading face detector...
+2026-10-24 21:06:19 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Face detector loaded
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-10-24 21:06:20 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-10-24 21:06:20 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 0 newly marked present
+2026-10-24 21:06:20 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 65, "y": 36, "w": 181, "h": 205, "student_id": "1", "name": "Shankar", "confidence": 0.6312814772909765, "attendance_marked": false}]}
+2026-10-24 21:06:20 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-10-24 21:06:19 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Loading face detector...
+2026-10-24 21:06:19 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Face detector loaded
+2026-10-24 21:06:19 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-10-24 21:06:20 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-10-24 21:06:20 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 0 newly marked present
+2026-10-24 21:06:24 | INFO     | gui.app | Navigated to attendance page
+2026-10-24 21:06:50 | INFO     | gui.attendance_page | Manually marked 1 as Absent for period 1 on 2026-10-24
+2026-10-24 21:06:57 | INFO     | gui.attendance_page | Manually marked 1 as Present for period 1 on 2026-10-24
+2026-10-24 21:07:01 | INFO     | gui.app | Navigated to recognize page
+2026-10-24 21:07:12 | INFO     | __main__ | Application closed
+2026-11-02 09:23:45 | INFO     | __main__ | Starting Face Recognition Attendance System
+2026-11-02 09:23:45 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:23:46 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:24:32 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:24:35 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:24:47 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/1/img_001.jpg 0.5 1
+2026-11-02 09:24:48 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:24:48 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:24:49 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:24:50 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:24:50 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 63, "y": 57, "w": 174, "h": 179, "student_id": "1", "name": "Shankar", "confidence": 0.8259182268395932, "attendance_marked": true}]}
+2026-11-02 09:24:50 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:24:48 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:24:48 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:24:48 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:24:49 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:24:50 | INFO     | core.attendance_engine | Processed photo for period 1: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:25:12 | INFO     | __main__ | Application closed
+2026-11-02 09:34:43 | INFO     | __main__ | Starting Face Recognition Attendance System
+2026-11-02 09:34:43 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:34:44 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:35:18 | INFO     | gui.app | Navigated to register page
+2026-11-02 09:37:35 | INFO     | database.db_manager | Registered student 2 (Jean George)
+2026-11-02 09:37:35 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:37:36 | INFO     | core.camera_capture | Camera 0 opened
+2026-11-02 09:37:53 | INFO     | core.camera_capture | Camera 0 released
+2026-11-02 09:38:03 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:38:06 | INFO     | gui.app | Navigated to students page
+2026-11-02 09:38:08 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-11-02 09:38:08 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:38:08 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:38:08 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:38:08 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:38:08 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:38:10 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:38:10 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:38:10 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:38:11 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:38:11 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:38:12 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:38:12 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:38:13 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:38:13 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:38:14 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:38:14 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:38:16 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:38:16 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:38:17 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:38:17 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:38:18 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:38:18 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:38:19 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:38:19 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:38:20 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:38:20 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:38:21 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:38:21 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:38:22 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:38:22 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:38:24 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:38:24 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:38:25 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:38:25 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:38:26 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:38:26 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:38:27 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:38:27 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:38:28 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:38:28 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:38:29 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:38:29 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:38:29 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:38:29 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:38:30 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:38:30 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:38:32 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:38:32 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:38:33 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:38:33 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:38:34 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:38:34 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:38:35 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:38:35 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:38:36 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:38:36 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:38:37 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:38:37 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:38:38 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:38:38 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:38:39 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:38:39 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:38:41 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:38:41 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:38:42 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:38:42 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:38:43 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:38:43 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:38:44 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:38:44 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:38:45 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:38:45 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:38:46 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:38:46 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:38:47 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:38:47 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:38:48 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:38:48 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:38:48 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": [{"student_id": "2", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "1", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}]}
+2026-11-02 09:38:48 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-11-02 09:38:08 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:38:08 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:38:08 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:38:08 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:38:08 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:38:10 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:38:10 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:38:10 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:38:11 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:38:11 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:38:12 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:38:12 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:38:13 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:38:13 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:38:14 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:38:14 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:38:15 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:38:16 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:38:16 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:38:17 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:38:17 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:38:18 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:38:18 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:38:19 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:38:19 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:38:20 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:38:20 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:38:21 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:38:21 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:38:22 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:38:22 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:38:23 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:38:24 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:38:24 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:38:25 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:38:25 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:38:26 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:38:26 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:38:27 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:38:27 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:38:28 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:38:28 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:38:29 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:38:29 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:38:29 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:38:29 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:38:30 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:38:30 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:38:31 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:38:32 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:38:32 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:38:33 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:38:33 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:38:34 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:38:34 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:38:35 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:38:35 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:38:36 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:38:36 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:38:37 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:38:37 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:38:38 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:38:38 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:38:39 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:38:39 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:38:40 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:38:41 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:38:41 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:38:42 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:38:42 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:38:43 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:38:43 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:38:44 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:38:44 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:38:45 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:38:45 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:38:46 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:38:46 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:38:47 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:38:47 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:38:48 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:38:48 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:38:58 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:38:59 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:39:13 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/2/img_003.jpg 0.5 2
+2026-11-02 09:39:14 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:39:14 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:39:15 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:39:16 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:39:16 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 64, "y": 52, "w": 169, "h": 187, "student_id": "2", "name": "Jean George", "confidence": 0.7650323113621385, "attendance_marked": true}]}
+2026-11-02 09:39:16 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:39:14 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:39:14 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:39:14 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:39:15 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:39:16 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:39:54 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_39_43_Pro.jpg 0.5 2
+2026-11-02 09:39:55 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:39:55 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:39:57 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:39:58 | INFO     | core.attendance_engine | Processed photo for period 2: 2 faces, 2 recognized, 1 newly marked present
+2026-11-02 09:39:58 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 505, "y": 288, "w": 297, "h": 325, "student_id": "2", "name": "Jean George", "confidence": 0.6441803753485766, "attendance_marked": false}, {"x": 1109, "y": 341, "w": 353, "h": 404, "student_id": "1", "name": "Shankar", "confidence": 0.713284443533347, "attendance_marked": true}]}
+2026-11-02 09:39:58 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:39:55 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:39:55 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:39:55 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:39:57 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:39:58 | INFO     | core.attendance_engine | Processed photo for period 2: 2 faces, 2 recognized, 1 newly marked present
+2026-11-02 09:40:12 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:41:01 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:41:09 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_39_43_Pro.jpg 0.5 3
+2026-11-02 09:41:09 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:41:09 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:41:11 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:41:12 | INFO     | core.attendance_engine | Processed photo for period 3: 2 faces, 2 recognized, 2 newly marked present
+2026-11-02 09:41:12 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 505, "y": 288, "w": 297, "h": 325, "student_id": "2", "name": "Jean George", "confidence": 0.6441803753485766, "attendance_marked": true}, {"x": 1109, "y": 341, "w": 353, "h": 404, "student_id": "1", "name": "Shankar", "confidence": 0.713284443533347, "attendance_marked": true}]}
+2026-11-02 09:41:12 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:41:09 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:41:09 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:41:09 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:41:11 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:41:12 | INFO     | core.attendance_engine | Processed photo for period 3: 2 faces, 2 recognized, 2 newly marked present
+2026-11-02 09:41:14 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:41:38 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:42:00 | INFO     | gui.app | Navigated to register page
+2026-11-02 09:42:25 | INFO     | database.db_manager | Registered student 3 (Hathim)
+2026-11-02 09:42:25 | INFO     | core.camera_capture | Camera 0 opened
+2026-11-02 09:42:46 | INFO     | core.camera_capture | Camera 0 released
+2026-11-02 09:42:52 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:43:29 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/3/img_004.jpg 0.5 2
+2026-11-02 09:43:30 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:43:30 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:43:31 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:43:32 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 09:43:32 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 64, "y": 58, "w": 176, "h": 187, "student_id": "2", "name": "Jean George", "confidence": 0.5016415712066962, "attendance_marked": false}]}
+2026-11-02 09:43:32 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:43:30 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:43:30 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:43:30 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:43:31 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:43:32 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 09:43:38 | INFO     | gui.app | Navigated to students page
+2026-11-02 09:43:41 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-11-02 09:43:41 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:43:41 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:43:42 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:43:42 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:43:42 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:43:43 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:43:43 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 09:43:45 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 09:43:45 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 09:43:46 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 09:43:46 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 09:43:47 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 09:43:47 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 09:43:48 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 09:43:48 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 09:43:49 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 09:43:49 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 09:43:51 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 09:43:51 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 09:43:52 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 09:43:52 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 09:43:53 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 09:43:53 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 09:43:54 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 09:43:54 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 09:43:55 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 09:43:55 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 09:43:56 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 09:43:56 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 09:43:57 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 09:43:57 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 09:43:59 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 09:43:59 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 09:44:00 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 09:44:00 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 09:44:01 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 09:44:01 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 09:44:02 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 09:44:02 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 09:44:02 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:44:02 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:44:03 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:44:03 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:44:04 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:44:04 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:44:06 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:44:06 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:44:07 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:44:07 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:44:08 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:44:08 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:44:09 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:44:09 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:44:10 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:44:10 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:44:12 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:44:12 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:44:13 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:44:13 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:44:14 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:44:14 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:44:15 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:44:15 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:44:16 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:44:16 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:44:17 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:44:17 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:44:19 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:44:19 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:44:20 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:44:20 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:44:20 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:44:20 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:44:21 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:44:21 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:44:22 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:44:22 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:44:23 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:44:23 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:44:25 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:44:25 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:44:26 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:44:26 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:44:27 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:44:27 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:44:28 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:44:28 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:44:29 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:44:29 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:44:30 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:44:30 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:44:32 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:44:32 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:44:33 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:44:33 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:44:34 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:44:34 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:44:35 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:44:35 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:44:36 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:44:36 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:44:38 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:44:38 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:44:39 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:44:39 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:44:39 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": [{"student_id": "3", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "2", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "1", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}]}
+2026-11-02 09:44:39 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-11-02 09:43:41 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:43:41 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:43:42 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:43:42 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:43:42 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:43:43 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:43:43 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 09:43:44 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 09:43:45 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 09:43:45 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 09:43:46 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 09:43:46 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 09:43:47 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 09:43:47 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 09:43:48 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 09:43:48 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 09:43:49 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 09:43:49 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 09:43:50 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 09:43:51 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 09:43:51 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 09:43:52 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 09:43:52 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 09:43:53 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 09:43:53 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 09:43:54 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 09:43:54 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 09:43:55 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 09:43:55 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 09:43:56 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 09:43:56 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 09:43:57 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 09:43:57 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 09:43:58 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 09:43:59 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 09:43:59 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 09:44:00 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 09:44:00 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 09:44:01 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 09:44:01 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 09:44:02 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 09:44:02 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 09:44:02 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:44:02 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:44:03 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:44:03 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:44:04 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:44:04 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:44:05 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:44:06 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:44:06 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:44:07 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:44:07 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:44:08 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:44:08 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:44:09 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:44:09 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:44:10 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:44:10 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:44:11 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:44:12 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:44:12 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:44:13 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:44:13 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:44:14 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:44:14 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:44:15 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:44:15 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:44:16 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:44:16 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:44:17 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:44:17 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:44:18 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:44:19 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:44:19 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:44:20 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:44:20 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:44:20 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:44:20 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:44:21 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:44:21 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:44:22 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:44:22 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:44:23 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:44:23 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:44:24 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:44:25 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:44:25 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:44:26 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:44:26 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:44:27 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:44:27 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:44:28 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:44:28 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:44:29 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:44:29 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:44:30 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:44:30 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:44:31 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:44:32 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:44:32 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:44:33 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:44:33 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:44:34 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:44:34 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:44:35 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:44:35 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:44:36 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:44:36 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:44:37 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:44:38 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:44:38 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:44:39 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:44:39 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:44:40 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:44:42 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/3/img_004.jpg 0.5 2
+2026-11-02 09:44:42 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:44:42 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:44:44 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:44:44 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:44:44 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 64, "y": 58, "w": 176, "h": 187, "student_id": "3", "name": "Hathim", "confidence": 0.6806793635481938, "attendance_marked": true}]}
+2026-11-02 09:44:44 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:44:42 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:44:42 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:44:42 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:44:44 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:44:44 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:45:07 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/3/img_013.jpg 0.5 2
+2026-11-02 09:45:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:45:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:45:09 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:45:09 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 09:45:09 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 70, "y": 39, "w": 171, "h": 193, "student_id": "3", "name": "Hathim", "confidence": 0.7000417450604145, "attendance_marked": false}]}
+2026-11-02 09:45:09 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:45:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:45:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:45:07 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:45:09 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:45:09 | INFO     | core.attendance_engine | Processed photo for period 2: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 09:45:18 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:45:39 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:45:40 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:45:43 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:46:02 | INFO     | gui.app | Navigated to register page
+2026-11-02 09:46:27 | INFO     | database.db_manager | Registered student 4 (sian)
+2026-11-02 09:46:27 | INFO     | core.camera_capture | Camera 0 opened
+2026-11-02 09:46:54 | INFO     | core.camera_capture | Camera 0 released
+2026-11-02 09:47:04 | INFO     | gui.app | Navigated to students page
+2026-11-02 09:47:06 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-11-02 09:47:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:47:07 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:47:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:47:07 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:47:07 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:47:08 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:47:08 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 09:47:09 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 09:47:09 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 09:47:11 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 09:47:11 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 09:47:12 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 09:47:12 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 09:47:13 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 09:47:13 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 09:47:14 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 09:47:14 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 09:47:15 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 09:47:15 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 09:47:17 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 09:47:17 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 09:47:18 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 09:47:18 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 09:47:19 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 09:47:19 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 09:47:20 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 09:47:20 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 09:47:21 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 09:47:21 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 09:47:23 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 09:47:23 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 09:47:24 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 09:47:24 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 09:47:25 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 09:47:25 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 09:47:26 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 09:47:26 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 09:47:27 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 09:47:27 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 09:47:27 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:47:27 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:47:28 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:47:28 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:47:30 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:47:30 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:47:31 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:47:31 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:47:32 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:47:32 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:47:33 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:47:33 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:47:34 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:47:34 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:47:36 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:47:36 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:47:37 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:47:37 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:47:38 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:47:38 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:47:39 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:47:39 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:47:40 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:47:40 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:47:41 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:47:41 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:47:43 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:47:43 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:47:44 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:47:44 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:47:45 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:47:45 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:47:45 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:47:45 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:47:46 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:47:46 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:47:47 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:47:47 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:47:49 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:47:49 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:47:50 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:47:50 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:47:51 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:47:51 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:47:52 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:47:52 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:47:53 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:47:53 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:47:55 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:47:55 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:47:56 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:47:56 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:47:57 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:47:57 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:47:58 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:47:58 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:48:00 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:48:00 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:48:01 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:48:01 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:48:02 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:48:02 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:48:03 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:48:03 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:48:04 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:48:04 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_001.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_002.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_003.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_004.jpg
+2026-11-02 09:48:05 | INFO     | core.trainer | Training 4: processing img_005.jpg
+2026-11-02 09:48:05 | INFO     | core.trainer | Training 4: processing img_006.jpg
+2026-11-02 09:48:06 | INFO     | core.trainer | Training 4: processing img_007.jpg
+2026-11-02 09:48:06 | INFO     | core.trainer | Training 4: processing img_008.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_009.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_010.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_011.jpg
+2026-11-02 09:48:08 | INFO     | core.trainer | Training 4: processing img_012.jpg
+2026-11-02 09:48:08 | INFO     | core.trainer | Training 4: processing img_013.jpg
+2026-11-02 09:48:09 | INFO     | core.trainer | Training 4: processing img_014.jpg
+2026-11-02 09:48:09 | INFO     | core.trainer | Training 4: processing img_015.jpg
+2026-11-02 09:48:10 | INFO     | core.trainer | Training 4: processing img_016.jpg
+2026-11-02 09:48:10 | INFO     | core.trainer | Training 4: processing img_017.jpg
+2026-11-02 09:48:11 | INFO     | core.trainer | Training 4: processing img_018.jpg
+2026-11-02 09:48:11 | INFO     | core.trainer | Training 4: processing img_019.jpg
+2026-11-02 09:48:12 | INFO     | core.trainer | Training 4: processing img_020.jpg
+2026-11-02 09:48:12 | INFO     | core.trainer | Training 4: processing img_021.jpg
+2026-11-02 09:48:13 | INFO     | core.trainer | Training 4: processing img_022.jpg
+2026-11-02 09:48:13 | INFO     | core.trainer | Training 4: processing img_023.jpg
+2026-11-02 09:48:14 | INFO     | core.trainer | Training 4: processing img_024.jpg
+2026-11-02 09:48:14 | INFO     | core.trainer | Training 4: processing img_025.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_026.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_027.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_028.jpg
+2026-11-02 09:48:16 | INFO     | core.trainer | Training 4: processing img_029.jpg
+2026-11-02 09:48:16 | INFO     | core.trainer | Training 4: processing img_030.jpg
+2026-11-02 09:48:17 | INFO     | core.trainer | Training 4: processing img_031.jpg
+2026-11-02 09:48:17 | INFO     | core.trainer | Training 4: processing img_032.jpg
+2026-11-02 09:48:18 | INFO     | core.trainer | Training 4: processing img_033.jpg
+2026-11-02 09:48:18 | INFO     | core.trainer | Training 4: processing img_034.jpg
+2026-11-02 09:48:19 | INFO     | core.trainer | Training 4: processing img_035.jpg
+2026-11-02 09:48:19 | INFO     | core.trainer | Training 4: processing img_036.jpg
+2026-11-02 09:48:20 | INFO     | core.trainer | Training 4: processing img_037.jpg
+2026-11-02 09:48:20 | INFO     | core.trainer | Training 4: processing img_038.jpg
+2026-11-02 09:48:21 | INFO     | core.trainer | Training 4: processing img_039.jpg
+2026-11-02 09:48:21 | INFO     | core.trainer | Training 4: processing img_040.jpg
+2026-11-02 09:48:22 | INFO     | database.db_manager | Saved embedding for 4
+2026-11-02 09:48:22 | INFO     | core.trainer | Trained 4 on 38/40 images
+2026-11-02 09:48:22 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": [{"student_id": "3", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "2", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "1", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "4", "images_used": 38, "images_skipped": 2, "success": true, "message": "Trained on 38 of 40 images."}]}
+2026-11-02 09:48:22 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-11-02 09:47:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:47:07 | INFO     | core.trainer | Loading face detector...
+2026-11-02 09:47:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:47:07 | INFO     | core.trainer | Face detector loaded
+2026-11-02 09:47:07 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:47:08 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 09:47:08 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 09:47:09 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 09:47:09 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 09:47:10 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 09:47:11 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 09:47:11 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 09:47:12 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 09:47:12 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 09:47:13 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 09:47:13 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 09:47:14 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 09:47:14 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 09:47:15 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 09:47:15 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 09:47:16 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 09:47:17 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 09:47:17 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 09:47:18 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 09:47:18 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 09:47:19 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 09:47:19 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 09:47:20 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 09:47:20 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 09:47:21 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 09:47:21 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 09:47:22 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 09:47:23 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 09:47:23 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 09:47:24 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 09:47:24 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 09:47:25 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 09:47:25 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 09:47:26 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 09:47:26 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 09:47:27 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 09:47:27 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 09:47:27 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 09:47:27 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 09:47:28 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 09:47:28 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 09:47:29 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 09:47:30 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 09:47:30 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 09:47:31 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 09:47:31 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 09:47:32 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 09:47:32 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 09:47:33 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 09:47:33 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 09:47:34 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 09:47:34 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 09:47:35 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 09:47:36 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 09:47:36 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 09:47:37 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 09:47:37 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 09:47:38 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 09:47:38 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 09:47:39 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 09:47:39 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 09:47:40 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 09:47:40 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 09:47:41 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 09:47:41 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 09:47:42 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 09:47:43 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 09:47:43 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 09:47:44 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 09:47:44 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 09:47:45 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 09:47:45 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 09:47:45 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 09:47:45 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 09:47:46 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 09:47:46 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 09:47:47 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 09:47:47 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 09:47:48 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 09:47:49 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 09:47:49 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 09:47:50 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 09:47:50 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 09:47:51 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 09:47:51 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 09:47:52 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 09:47:52 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 09:47:53 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 09:47:53 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 09:47:54 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 09:47:55 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 09:47:55 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 09:47:56 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 09:47:56 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 09:47:57 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 09:47:57 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 09:47:58 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 09:47:58 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 09:47:59 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 09:48:00 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 09:48:00 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 09:48:01 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 09:48:01 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 09:48:02 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 09:48:02 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 09:48:03 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 09:48:03 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 09:48:04 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 09:48:04 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_001.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_002.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_003.jpg
+2026-11-02 09:48:04 | INFO     | core.trainer | Training 4: processing img_004.jpg
+2026-11-02 09:48:05 | INFO     | core.trainer | Training 4: processing img_005.jpg
+2026-11-02 09:48:05 | INFO     | core.trainer | Training 4: processing img_006.jpg
+2026-11-02 09:48:06 | INFO     | core.trainer | Training 4: processing img_007.jpg
+2026-11-02 09:48:06 | INFO     | core.trainer | Training 4: processing img_008.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_009.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_010.jpg
+2026-11-02 09:48:07 | INFO     | core.trainer | Training 4: processing img_011.jpg
+2026-11-02 09:48:08 | INFO     | core.trainer | Training 4: processing img_012.jpg
+2026-11-02 09:48:08 | INFO     | core.trainer | Training 4: processing img_013.jpg
+2026-11-02 09:48:09 | INFO     | core.trainer | Training 4: processing img_014.jpg
+2026-11-02 09:48:09 | INFO     | core.trainer | Training 4: processing img_015.jpg
+2026-11-02 09:48:10 | INFO     | core.trainer | Training 4: processing img_016.jpg
+2026-11-02 09:48:10 | INFO     | core.trainer | Training 4: processing img_017.jpg
+2026-11-02 09:48:11 | INFO     | core.trainer | Training 4: processing img_018.jpg
+2026-11-02 09:48:11 | INFO     | core.trainer | Training 4: processing img_019.jpg
+2026-11-02 09:48:12 | INFO     | core.trainer | Training 4: processing img_020.jpg
+2026-11-02 09:48:12 | INFO     | core.trainer | Training 4: processing img_021.jpg
+2026-11-02 09:48:13 | INFO     | core.trainer | Training 4: processing img_022.jpg
+2026-11-02 09:48:13 | INFO     | core.trainer | Training 4: processing img_023.jpg
+2026-11-02 09:48:14 | INFO     | core.trainer | Training 4: processing img_024.jpg
+2026-11-02 09:48:14 | INFO     | core.trainer | Training 4: processing img_025.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_026.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_027.jpg
+2026-11-02 09:48:15 | INFO     | core.trainer | Training 4: processing img_028.jpg
+2026-11-02 09:48:16 | INFO     | core.trainer | Training 4: processing img_029.jpg
+2026-11-02 09:48:16 | INFO     | core.trainer | Training 4: processing img_030.jpg
+2026-11-02 09:48:17 | INFO     | core.trainer | Training 4: processing img_031.jpg
+2026-11-02 09:48:17 | INFO     | core.trainer | Training 4: processing img_032.jpg
+2026-11-02 09:48:18 | INFO     | core.trainer | Training 4: processing img_033.jpg
+2026-11-02 09:48:18 | INFO     | core.trainer | Training 4: processing img_034.jpg
+2026-11-02 09:48:19 | INFO     | core.trainer | Training 4: processing img_035.jpg
+2026-11-02 09:48:19 | INFO     | core.trainer | Training 4: processing img_036.jpg
+2026-11-02 09:48:20 | INFO     | core.trainer | Training 4: processing img_037.jpg
+2026-11-02 09:48:20 | INFO     | core.trainer | Training 4: processing img_038.jpg
+2026-11-02 09:48:21 | INFO     | core.trainer | Training 4: processing img_039.jpg
+2026-11-02 09:48:21 | INFO     | core.trainer | Training 4: processing img_040.jpg
+2026-11-02 09:48:22 | INFO     | database.db_manager | Saved embedding for 4
+2026-11-02 09:48:22 | INFO     | core.trainer | Trained 4 on 38/40 images
+2026-11-02 09:48:40 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:48:42 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 09:48:58 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/4/img_008.jpg 0.5 5
+2026-11-02 09:48:59 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:48:59 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:49:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:49:01 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:49:01 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 65, "y": 55, "w": 174, "h": 185, "student_id": "4", "name": "sian", "confidence": 0.6796916055729063, "attendance_marked": true}]}
+2026-11-02 09:49:01 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:48:59 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:48:59 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:48:59 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:49:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:49:01 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 09:49:59 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_49_49_Pro.jpg 0.5 5
+2026-11-02 09:50:00 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:50:00 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:50:02 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:50:03 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 2 newly marked present
+2026-11-02 09:50:03 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 526, "y": 57, "w": 376, "h": 488, "student_id": "1", "name": "Shankar", "confidence": 0.6904252736123335, "attendance_marked": true}, {"x": 1054, "y": 358, "w": 224, "h": 260, "student_id": "3", "name": "Hathim", "confidence": 0.6669054939399726, "attendance_marked": true}]}
+2026-11-02 09:50:03 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:50:00 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:50:00 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:50:00 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:50:02 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:50:03 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 2 newly marked present
+2026-11-02 09:50:27 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_50_17_Pro.jpg 0.5 5
+2026-11-02 09:50:28 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:50:28 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 09:50:30 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:50:31 | INFO     | core.attendance_engine | Processed photo for period 5: 3 faces, 3 recognized, 0 newly marked present
+2026-11-02 09:50:31 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 919, "y": 294, "w": 231, "h": 283, "student_id": "3", "name": "Hathim", "confidence": 0.6626641340944601, "attendance_marked": false}, {"x": 425, "y": 43, "w": 393, "h": 495, "student_id": "1", "name": "Shankar", "confidence": 0.693139028228112, "attendance_marked": false}, {"x": 1261, "y": 381, "w": 225, "h": 221, "student_id": "4", "name": "sian", "confidence": 0.605459540831522, "attendance_marked": false}]}
+2026-11-02 09:50:31 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 09:50:28 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 09:50:28 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 09:50:28 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 09:50:30 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 09:50:31 | INFO     | core.attendance_engine | Processed photo for period 5: 3 faces, 3 recognized, 0 newly marked present
+2026-11-02 09:51:04 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:51:08 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:52:29 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 09:52:31 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 09:52:34 | INFO     | gui.app | Navigated to about page
+2026-11-02 10:38:51 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 10:39:21 | INFO     | gui.app | Navigated to students page
+2026-11-02 10:39:23 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 10:39:33 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 10:40:01 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 10:40:27 | INFO     | gui.app | Navigated to about page
+2026-11-02 10:41:49 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 10:46:52 | INFO     | gui.app | Navigated to dashboard page
+2026-11-02 11:25:35 | INFO     | gui.app | Navigated to register page
+2026-11-02 11:29:22 | INFO     | database.db_manager | Registered student 5 (ann)
+2026-11-02 11:29:23 | INFO     | core.camera_capture | Camera 0 opened
+2026-11-02 11:29:40 | INFO     | core.camera_capture | Camera 0 released
+2026-11-02 11:29:44 | ERROR    | database.db_manager | Database operation failed, rolled back.
+Traceback (most recent call last):
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 73, in _connect
+    yield conn
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 132, in add_student
+    conn.execute(
+    ~~~~~~~~~~~~^
+        """INSERT INTO students (student_id, name, department, semester, email)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+         student.semester, student.email),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.IntegrityError: UNIQUE constraint failed: students.student_id
+2026-11-02 11:29:46 | ERROR    | database.db_manager | Database operation failed, rolled back.
+Traceback (most recent call last):
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 73, in _connect
+    yield conn
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 132, in add_student
+    conn.execute(
+    ~~~~~~~~~~~~^
+        """INSERT INTO students (student_id, name, department, semester, email)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+         student.semester, student.email),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.IntegrityError: UNIQUE constraint failed: students.student_id
+2026-11-02 11:29:53 | ERROR    | database.db_manager | Database operation failed, rolled back.
+Traceback (most recent call last):
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 73, in _connect
+    yield conn
+  File "C:\Users\Shankar\Desktop\face_attendance_system\database\db_manager.py", line 132, in add_student
+    conn.execute(
+    ~~~~~~~~~~~~^
+        """INSERT INTO students (student_id, name, department, semester, email)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+         student.semester, student.email),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.IntegrityError: UNIQUE constraint failed: students.student_id
+2026-11-02 11:29:56 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:29:57 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:30:10 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:30:10 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:30:49 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/5/img_009.jpg 0.5 3
+2026-11-02 11:30:50 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:30:50 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:30:51 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:30:52 | INFO     | core.attendance_engine | Processed photo for period 3: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 11:30:52 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 64, "y": 63, "w": 177, "h": 177, "student_id": "3", "name": "Hathim", "confidence": 0.5040493743123016, "attendance_marked": true}]}
+2026-11-02 11:30:52 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:30:50 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:30:50 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:30:50 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:30:51 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:30:52 | INFO     | core.attendance_engine | Processed photo for period 3: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 11:30:58 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/5/img_009.jpg 0.5 5
+2026-11-02 11:30:58 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:30:58 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:31:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:31:00 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:31:00 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 64, "y": 63, "w": 177, "h": 177, "student_id": "3", "name": "Hathim", "confidence": 0.5040493743123016, "attendance_marked": false}]}
+2026-11-02 11:31:00 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:30:58 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:30:58 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:30:58 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:31:00 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:31:00 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:31:02 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:31:02 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:31:04 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:31:04 | INFO     | gui.app | Navigated to students page
+2026-11-02 11:31:06 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\train_worker.py __all__
+2026-11-02 11:31:06 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:31:06 | INFO     | core.trainer | Loading face detector...
+2026-11-02 11:31:06 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:31:06 | INFO     | core.trainer | Face detector loaded
+2026-11-02 11:31:06 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:31:08 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 11:31:08 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 11:31:08 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 11:31:09 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 11:31:09 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 11:31:11 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 11:31:11 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 11:31:12 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 11:31:12 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 11:31:13 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 11:31:13 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 11:31:14 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 11:31:14 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 11:31:15 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 11:31:15 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 11:31:17 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 11:31:17 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 11:31:18 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 11:31:18 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 11:31:19 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 11:31:19 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 11:31:20 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 11:31:20 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 11:31:21 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 11:31:21 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 11:31:22 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 11:31:22 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 11:31:23 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 11:31:23 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 11:31:25 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 11:31:25 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 11:31:26 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 11:31:26 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 11:31:26 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 11:31:26 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 11:31:27 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 11:31:27 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 11:31:28 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 11:31:28 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 11:31:29 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 11:31:29 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 11:31:31 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 11:31:31 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 11:31:32 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 11:31:32 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 11:31:33 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 11:31:33 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 11:31:34 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 11:31:34 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 11:31:35 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 11:31:35 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 11:31:37 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 11:31:37 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 11:31:38 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 11:31:38 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 11:31:39 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 11:31:39 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 11:31:40 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 11:31:40 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 11:31:41 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 11:31:41 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 11:31:43 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 11:31:43 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 11:31:44 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 11:31:44 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 11:31:45 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 11:31:45 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 11:31:45 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 11:31:45 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 11:31:46 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 11:31:46 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 11:31:47 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 11:31:47 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 11:31:49 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 11:31:49 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 11:31:50 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 11:31:50 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 11:31:51 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 11:31:51 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 11:31:52 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 11:31:52 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 11:31:53 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 11:31:53 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 11:31:55 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 11:31:55 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 11:31:56 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 11:31:56 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 11:31:57 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 11:31:57 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 11:31:58 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 11:31:58 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 11:32:00 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 11:32:00 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 11:32:01 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 11:32:01 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 11:32:02 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 11:32:02 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 11:32:03 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 11:32:03 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 11:32:03 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 11:32:03 | INFO     | core.trainer | Training 5: processing img_001.jpg
+2026-11-02 11:32:04 | INFO     | core.trainer | Training 5: processing img_002.jpg
+2026-11-02 11:32:04 | INFO     | core.trainer | Training 5: processing img_003.jpg
+2026-11-02 11:32:05 | INFO     | core.trainer | Training 5: processing img_004.jpg
+2026-11-02 11:32:05 | INFO     | core.trainer | Training 5: processing img_005.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_006.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_007.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_008.jpg
+2026-11-02 11:32:07 | INFO     | core.trainer | Training 5: processing img_009.jpg
+2026-11-02 11:32:07 | INFO     | core.trainer | Training 5: processing img_010.jpg
+2026-11-02 11:32:08 | INFO     | core.trainer | Training 5: processing img_011.jpg
+2026-11-02 11:32:08 | INFO     | core.trainer | Training 5: processing img_012.jpg
+2026-11-02 11:32:09 | INFO     | core.trainer | Training 5: processing img_013.jpg
+2026-11-02 11:32:09 | INFO     | core.trainer | Training 5: processing img_014.jpg
+2026-11-02 11:32:10 | INFO     | core.trainer | Training 5: processing img_015.jpg
+2026-11-02 11:32:10 | INFO     | core.trainer | Training 5: processing img_016.jpg
+2026-11-02 11:32:11 | INFO     | core.trainer | Training 5: processing img_017.jpg
+2026-11-02 11:32:11 | INFO     | core.trainer | Training 5: processing img_018.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_019.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_020.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_021.jpg
+2026-11-02 11:32:13 | INFO     | core.trainer | Training 5: processing img_022.jpg
+2026-11-02 11:32:13 | INFO     | core.trainer | Training 5: processing img_023.jpg
+2026-11-02 11:32:14 | INFO     | core.trainer | Training 5: processing img_024.jpg
+2026-11-02 11:32:14 | INFO     | core.trainer | Training 5: processing img_025.jpg
+2026-11-02 11:32:15 | INFO     | core.trainer | Training 5: processing img_026.jpg
+2026-11-02 11:32:15 | INFO     | core.trainer | Training 5: processing img_027.jpg
+2026-11-02 11:32:16 | INFO     | core.trainer | Training 5: processing img_028.jpg
+2026-11-02 11:32:16 | INFO     | core.trainer | Training 5: processing img_029.jpg
+2026-11-02 11:32:17 | INFO     | core.trainer | Training 5: processing img_030.jpg
+2026-11-02 11:32:17 | INFO     | core.trainer | Training 5: processing img_031.jpg
+2026-11-02 11:32:18 | INFO     | core.trainer | Training 5: processing img_032.jpg
+2026-11-02 11:32:18 | INFO     | core.trainer | Training 5: processing img_033.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_034.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_035.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_036.jpg
+2026-11-02 11:32:20 | INFO     | core.trainer | Training 5: processing img_037.jpg
+2026-11-02 11:32:20 | INFO     | core.trainer | Training 5: processing img_038.jpg
+2026-11-02 11:32:21 | INFO     | core.trainer | Training 5: processing img_039.jpg
+2026-11-02 11:32:21 | INFO     | core.trainer | Training 5: processing img_040.jpg
+2026-11-02 11:32:22 | INFO     | database.db_manager | Saved embedding for 5
+2026-11-02 11:32:22 | INFO     | core.trainer | Trained 5 on 40/40 images
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_001.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_002.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_003.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_004.jpg
+2026-11-02 11:32:23 | INFO     | core.trainer | Training 4: processing img_005.jpg
+2026-11-02 11:32:23 | INFO     | core.trainer | Training 4: processing img_006.jpg
+2026-11-02 11:32:24 | INFO     | core.trainer | Training 4: processing img_007.jpg
+2026-11-02 11:32:24 | INFO     | core.trainer | Training 4: processing img_008.jpg
+2026-11-02 11:32:25 | INFO     | core.trainer | Training 4: processing img_009.jpg
+2026-11-02 11:32:25 | INFO     | core.trainer | Training 4: processing img_010.jpg
+2026-11-02 11:32:26 | INFO     | core.trainer | Training 4: processing img_011.jpg
+2026-11-02 11:32:26 | INFO     | core.trainer | Training 4: processing img_012.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_013.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_014.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_015.jpg
+2026-11-02 11:32:28 | INFO     | core.trainer | Training 4: processing img_016.jpg
+2026-11-02 11:32:28 | INFO     | core.trainer | Training 4: processing img_017.jpg
+2026-11-02 11:32:29 | INFO     | core.trainer | Training 4: processing img_018.jpg
+2026-11-02 11:32:29 | INFO     | core.trainer | Training 4: processing img_019.jpg
+2026-11-02 11:32:30 | INFO     | core.trainer | Training 4: processing img_020.jpg
+2026-11-02 11:32:30 | INFO     | core.trainer | Training 4: processing img_021.jpg
+2026-11-02 11:32:31 | INFO     | core.trainer | Training 4: processing img_022.jpg
+2026-11-02 11:32:31 | INFO     | core.trainer | Training 4: processing img_023.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_024.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_025.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_026.jpg
+2026-11-02 11:32:33 | INFO     | core.trainer | Training 4: processing img_027.jpg
+2026-11-02 11:32:33 | INFO     | core.trainer | Training 4: processing img_028.jpg
+2026-11-02 11:32:34 | INFO     | core.trainer | Training 4: processing img_029.jpg
+2026-11-02 11:32:34 | INFO     | core.trainer | Training 4: processing img_030.jpg
+2026-11-02 11:32:35 | INFO     | core.trainer | Training 4: processing img_031.jpg
+2026-11-02 11:32:35 | INFO     | core.trainer | Training 4: processing img_032.jpg
+2026-11-02 11:32:36 | INFO     | core.trainer | Training 4: processing img_033.jpg
+2026-11-02 11:32:36 | INFO     | core.trainer | Training 4: processing img_034.jpg
+2026-11-02 11:32:37 | INFO     | core.trainer | Training 4: processing img_035.jpg
+2026-11-02 11:32:37 | INFO     | core.trainer | Training 4: processing img_036.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_037.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_038.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_039.jpg
+2026-11-02 11:32:39 | INFO     | core.trainer | Training 4: processing img_040.jpg
+2026-11-02 11:32:39 | INFO     | database.db_manager | Saved embedding for 4
+2026-11-02 11:32:39 | INFO     | core.trainer | Trained 4 on 38/40 images
+2026-11-02 11:32:39 | INFO     | utils.subprocess_runner | train_worker.py stdout:
+{"results": [{"student_id": "3", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "2", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "1", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "5", "images_used": 40, "images_skipped": 0, "success": true, "message": "Trained on 40 of 40 images."}, {"student_id": "4", "images_used": 38, "images_skipped": 2, "success": true, "message": "Trained on 38 of 40 images."}]}
+2026-11-02 11:32:39 | INFO     | utils.subprocess_runner | train_worker.py stderr:
+2026-11-02 11:31:06 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:31:06 | INFO     | core.trainer | Loading face detector...
+2026-11-02 11:31:06 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:31:06 | INFO     | core.trainer | Face detector loaded
+2026-11-02 11:31:06 | INFO     | core.trainer | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:31:08 | INFO     | core.trainer | Face recognizer loaded
+2026-11-02 11:31:08 | INFO     | core.trainer | Training 3: processing img_001.jpg
+2026-11-02 11:31:08 | INFO     | core.trainer | Training 3: processing img_002.jpg
+2026-11-02 11:31:09 | INFO     | core.trainer | Training 3: processing img_003.jpg
+2026-11-02 11:31:09 | INFO     | core.trainer | Training 3: processing img_004.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_005.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_006.jpg
+2026-11-02 11:31:10 | INFO     | core.trainer | Training 3: processing img_007.jpg
+2026-11-02 11:31:11 | INFO     | core.trainer | Training 3: processing img_008.jpg
+2026-11-02 11:31:11 | INFO     | core.trainer | Training 3: processing img_009.jpg
+2026-11-02 11:31:12 | INFO     | core.trainer | Training 3: processing img_010.jpg
+2026-11-02 11:31:12 | INFO     | core.trainer | Training 3: processing img_011.jpg
+2026-11-02 11:31:13 | INFO     | core.trainer | Training 3: processing img_012.jpg
+2026-11-02 11:31:13 | INFO     | core.trainer | Training 3: processing img_013.jpg
+2026-11-02 11:31:14 | INFO     | core.trainer | Training 3: processing img_014.jpg
+2026-11-02 11:31:14 | INFO     | core.trainer | Training 3: processing img_015.jpg
+2026-11-02 11:31:15 | INFO     | core.trainer | Training 3: processing img_016.jpg
+2026-11-02 11:31:15 | INFO     | core.trainer | Training 3: processing img_017.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_018.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_019.jpg
+2026-11-02 11:31:16 | INFO     | core.trainer | Training 3: processing img_020.jpg
+2026-11-02 11:31:17 | INFO     | core.trainer | Training 3: processing img_021.jpg
+2026-11-02 11:31:17 | INFO     | core.trainer | Training 3: processing img_022.jpg
+2026-11-02 11:31:18 | INFO     | core.trainer | Training 3: processing img_023.jpg
+2026-11-02 11:31:18 | INFO     | core.trainer | Training 3: processing img_024.jpg
+2026-11-02 11:31:19 | INFO     | core.trainer | Training 3: processing img_025.jpg
+2026-11-02 11:31:19 | INFO     | core.trainer | Training 3: processing img_026.jpg
+2026-11-02 11:31:20 | INFO     | core.trainer | Training 3: processing img_027.jpg
+2026-11-02 11:31:20 | INFO     | core.trainer | Training 3: processing img_028.jpg
+2026-11-02 11:31:21 | INFO     | core.trainer | Training 3: processing img_029.jpg
+2026-11-02 11:31:21 | INFO     | core.trainer | Training 3: processing img_030.jpg
+2026-11-02 11:31:22 | INFO     | core.trainer | Training 3: processing img_031.jpg
+2026-11-02 11:31:22 | INFO     | core.trainer | Training 3: processing img_032.jpg
+2026-11-02 11:31:23 | INFO     | core.trainer | Training 3: processing img_033.jpg
+2026-11-02 11:31:23 | INFO     | core.trainer | Training 3: processing img_034.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_035.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_036.jpg
+2026-11-02 11:31:24 | INFO     | core.trainer | Training 3: processing img_037.jpg
+2026-11-02 11:31:25 | INFO     | core.trainer | Training 3: processing img_038.jpg
+2026-11-02 11:31:25 | INFO     | core.trainer | Training 3: processing img_039.jpg
+2026-11-02 11:31:26 | INFO     | core.trainer | Training 3: processing img_040.jpg
+2026-11-02 11:31:26 | INFO     | database.db_manager | Saved embedding for 3
+2026-11-02 11:31:26 | INFO     | core.trainer | Trained 3 on 40/40 images
+2026-11-02 11:31:26 | INFO     | core.trainer | Training 2: processing img_001.jpg
+2026-11-02 11:31:27 | INFO     | core.trainer | Training 2: processing img_002.jpg
+2026-11-02 11:31:27 | INFO     | core.trainer | Training 2: processing img_003.jpg
+2026-11-02 11:31:28 | INFO     | core.trainer | Training 2: processing img_004.jpg
+2026-11-02 11:31:28 | INFO     | core.trainer | Training 2: processing img_005.jpg
+2026-11-02 11:31:29 | INFO     | core.trainer | Training 2: processing img_006.jpg
+2026-11-02 11:31:29 | INFO     | core.trainer | Training 2: processing img_007.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_008.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_009.jpg
+2026-11-02 11:31:30 | INFO     | core.trainer | Training 2: processing img_010.jpg
+2026-11-02 11:31:31 | INFO     | core.trainer | Training 2: processing img_011.jpg
+2026-11-02 11:31:31 | INFO     | core.trainer | Training 2: processing img_012.jpg
+2026-11-02 11:31:32 | INFO     | core.trainer | Training 2: processing img_013.jpg
+2026-11-02 11:31:32 | INFO     | core.trainer | Training 2: processing img_014.jpg
+2026-11-02 11:31:33 | INFO     | core.trainer | Training 2: processing img_015.jpg
+2026-11-02 11:31:33 | INFO     | core.trainer | Training 2: processing img_016.jpg
+2026-11-02 11:31:34 | INFO     | core.trainer | Training 2: processing img_017.jpg
+2026-11-02 11:31:34 | INFO     | core.trainer | Training 2: processing img_018.jpg
+2026-11-02 11:31:35 | INFO     | core.trainer | Training 2: processing img_019.jpg
+2026-11-02 11:31:35 | INFO     | core.trainer | Training 2: processing img_020.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_021.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_022.jpg
+2026-11-02 11:31:36 | INFO     | core.trainer | Training 2: processing img_023.jpg
+2026-11-02 11:31:37 | INFO     | core.trainer | Training 2: processing img_024.jpg
+2026-11-02 11:31:37 | INFO     | core.trainer | Training 2: processing img_025.jpg
+2026-11-02 11:31:38 | INFO     | core.trainer | Training 2: processing img_026.jpg
+2026-11-02 11:31:38 | INFO     | core.trainer | Training 2: processing img_027.jpg
+2026-11-02 11:31:39 | INFO     | core.trainer | Training 2: processing img_028.jpg
+2026-11-02 11:31:39 | INFO     | core.trainer | Training 2: processing img_029.jpg
+2026-11-02 11:31:40 | INFO     | core.trainer | Training 2: processing img_030.jpg
+2026-11-02 11:31:40 | INFO     | core.trainer | Training 2: processing img_031.jpg
+2026-11-02 11:31:41 | INFO     | core.trainer | Training 2: processing img_032.jpg
+2026-11-02 11:31:41 | INFO     | core.trainer | Training 2: processing img_033.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_034.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_035.jpg
+2026-11-02 11:31:42 | INFO     | core.trainer | Training 2: processing img_036.jpg
+2026-11-02 11:31:43 | INFO     | core.trainer | Training 2: processing img_037.jpg
+2026-11-02 11:31:43 | INFO     | core.trainer | Training 2: processing img_038.jpg
+2026-11-02 11:31:44 | INFO     | core.trainer | Training 2: processing img_039.jpg
+2026-11-02 11:31:44 | INFO     | core.trainer | Training 2: processing img_040.jpg
+2026-11-02 11:31:45 | INFO     | database.db_manager | Saved embedding for 2
+2026-11-02 11:31:45 | INFO     | core.trainer | Trained 2 on 40/40 images
+2026-11-02 11:31:45 | INFO     | core.trainer | Training 1: processing img_001.jpg
+2026-11-02 11:31:45 | INFO     | core.trainer | Training 1: processing img_002.jpg
+2026-11-02 11:31:46 | INFO     | core.trainer | Training 1: processing img_003.jpg
+2026-11-02 11:31:46 | INFO     | core.trainer | Training 1: processing img_004.jpg
+2026-11-02 11:31:47 | INFO     | core.trainer | Training 1: processing img_005.jpg
+2026-11-02 11:31:47 | INFO     | core.trainer | Training 1: processing img_006.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_007.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_008.jpg
+2026-11-02 11:31:48 | INFO     | core.trainer | Training 1: processing img_009.jpg
+2026-11-02 11:31:49 | INFO     | core.trainer | Training 1: processing img_010.jpg
+2026-11-02 11:31:49 | INFO     | core.trainer | Training 1: processing img_011.jpg
+2026-11-02 11:31:50 | INFO     | core.trainer | Training 1: processing img_012.jpg
+2026-11-02 11:31:50 | INFO     | core.trainer | Training 1: processing img_013.jpg
+2026-11-02 11:31:51 | INFO     | core.trainer | Training 1: processing img_014.jpg
+2026-11-02 11:31:51 | INFO     | core.trainer | Training 1: processing img_015.jpg
+2026-11-02 11:31:52 | INFO     | core.trainer | Training 1: processing img_016.jpg
+2026-11-02 11:31:52 | INFO     | core.trainer | Training 1: processing img_017.jpg
+2026-11-02 11:31:53 | INFO     | core.trainer | Training 1: processing img_018.jpg
+2026-11-02 11:31:53 | INFO     | core.trainer | Training 1: processing img_019.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_020.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_021.jpg
+2026-11-02 11:31:54 | INFO     | core.trainer | Training 1: processing img_022.jpg
+2026-11-02 11:31:55 | INFO     | core.trainer | Training 1: processing img_023.jpg
+2026-11-02 11:31:55 | INFO     | core.trainer | Training 1: processing img_024.jpg
+2026-11-02 11:31:56 | INFO     | core.trainer | Training 1: processing img_025.jpg
+2026-11-02 11:31:56 | INFO     | core.trainer | Training 1: processing img_026.jpg
+2026-11-02 11:31:57 | INFO     | core.trainer | Training 1: processing img_027.jpg
+2026-11-02 11:31:57 | INFO     | core.trainer | Training 1: processing img_028.jpg
+2026-11-02 11:31:58 | INFO     | core.trainer | Training 1: processing img_029.jpg
+2026-11-02 11:31:58 | INFO     | core.trainer | Training 1: processing img_030.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_031.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_032.jpg
+2026-11-02 11:31:59 | INFO     | core.trainer | Training 1: processing img_033.jpg
+2026-11-02 11:32:00 | INFO     | core.trainer | Training 1: processing img_034.jpg
+2026-11-02 11:32:00 | INFO     | core.trainer | Training 1: processing img_035.jpg
+2026-11-02 11:32:01 | INFO     | core.trainer | Training 1: processing img_036.jpg
+2026-11-02 11:32:01 | INFO     | core.trainer | Training 1: processing img_037.jpg
+2026-11-02 11:32:02 | INFO     | core.trainer | Training 1: processing img_038.jpg
+2026-11-02 11:32:02 | INFO     | core.trainer | Training 1: processing img_039.jpg
+2026-11-02 11:32:03 | INFO     | core.trainer | Training 1: processing img_040.jpg
+2026-11-02 11:32:03 | INFO     | database.db_manager | Saved embedding for 1
+2026-11-02 11:32:03 | INFO     | core.trainer | Trained 1 on 40/40 images
+2026-11-02 11:32:03 | INFO     | core.trainer | Training 5: processing img_001.jpg
+2026-11-02 11:32:04 | INFO     | core.trainer | Training 5: processing img_002.jpg
+2026-11-02 11:32:04 | INFO     | core.trainer | Training 5: processing img_003.jpg
+2026-11-02 11:32:05 | INFO     | core.trainer | Training 5: processing img_004.jpg
+2026-11-02 11:32:05 | INFO     | core.trainer | Training 5: processing img_005.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_006.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_007.jpg
+2026-11-02 11:32:06 | INFO     | core.trainer | Training 5: processing img_008.jpg
+2026-11-02 11:32:07 | INFO     | core.trainer | Training 5: processing img_009.jpg
+2026-11-02 11:32:07 | INFO     | core.trainer | Training 5: processing img_010.jpg
+2026-11-02 11:32:08 | INFO     | core.trainer | Training 5: processing img_011.jpg
+2026-11-02 11:32:08 | INFO     | core.trainer | Training 5: processing img_012.jpg
+2026-11-02 11:32:09 | INFO     | core.trainer | Training 5: processing img_013.jpg
+2026-11-02 11:32:09 | INFO     | core.trainer | Training 5: processing img_014.jpg
+2026-11-02 11:32:10 | INFO     | core.trainer | Training 5: processing img_015.jpg
+2026-11-02 11:32:10 | INFO     | core.trainer | Training 5: processing img_016.jpg
+2026-11-02 11:32:11 | INFO     | core.trainer | Training 5: processing img_017.jpg
+2026-11-02 11:32:11 | INFO     | core.trainer | Training 5: processing img_018.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_019.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_020.jpg
+2026-11-02 11:32:12 | INFO     | core.trainer | Training 5: processing img_021.jpg
+2026-11-02 11:32:13 | INFO     | core.trainer | Training 5: processing img_022.jpg
+2026-11-02 11:32:13 | INFO     | core.trainer | Training 5: processing img_023.jpg
+2026-11-02 11:32:14 | INFO     | core.trainer | Training 5: processing img_024.jpg
+2026-11-02 11:32:14 | INFO     | core.trainer | Training 5: processing img_025.jpg
+2026-11-02 11:32:15 | INFO     | core.trainer | Training 5: processing img_026.jpg
+2026-11-02 11:32:15 | INFO     | core.trainer | Training 5: processing img_027.jpg
+2026-11-02 11:32:16 | INFO     | core.trainer | Training 5: processing img_028.jpg
+2026-11-02 11:32:16 | INFO     | core.trainer | Training 5: processing img_029.jpg
+2026-11-02 11:32:17 | INFO     | core.trainer | Training 5: processing img_030.jpg
+2026-11-02 11:32:17 | INFO     | core.trainer | Training 5: processing img_031.jpg
+2026-11-02 11:32:18 | INFO     | core.trainer | Training 5: processing img_032.jpg
+2026-11-02 11:32:18 | INFO     | core.trainer | Training 5: processing img_033.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_034.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_035.jpg
+2026-11-02 11:32:19 | INFO     | core.trainer | Training 5: processing img_036.jpg
+2026-11-02 11:32:20 | INFO     | core.trainer | Training 5: processing img_037.jpg
+2026-11-02 11:32:20 | INFO     | core.trainer | Training 5: processing img_038.jpg
+2026-11-02 11:32:21 | INFO     | core.trainer | Training 5: processing img_039.jpg
+2026-11-02 11:32:21 | INFO     | core.trainer | Training 5: processing img_040.jpg
+2026-11-02 11:32:22 | INFO     | database.db_manager | Saved embedding for 5
+2026-11-02 11:32:22 | INFO     | core.trainer | Trained 5 on 40/40 images
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_001.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_002.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_003.jpg
+2026-11-02 11:32:22 | INFO     | core.trainer | Training 4: processing img_004.jpg
+2026-11-02 11:32:23 | INFO     | core.trainer | Training 4: processing img_005.jpg
+2026-11-02 11:32:23 | INFO     | core.trainer | Training 4: processing img_006.jpg
+2026-11-02 11:32:24 | INFO     | core.trainer | Training 4: processing img_007.jpg
+2026-11-02 11:32:24 | INFO     | core.trainer | Training 4: processing img_008.jpg
+2026-11-02 11:32:25 | INFO     | core.trainer | Training 4: processing img_009.jpg
+2026-11-02 11:32:25 | INFO     | core.trainer | Training 4: processing img_010.jpg
+2026-11-02 11:32:26 | INFO     | core.trainer | Training 4: processing img_011.jpg
+2026-11-02 11:32:26 | INFO     | core.trainer | Training 4: processing img_012.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_013.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_014.jpg
+2026-11-02 11:32:27 | INFO     | core.trainer | Training 4: processing img_015.jpg
+2026-11-02 11:32:28 | INFO     | core.trainer | Training 4: processing img_016.jpg
+2026-11-02 11:32:28 | INFO     | core.trainer | Training 4: processing img_017.jpg
+2026-11-02 11:32:29 | INFO     | core.trainer | Training 4: processing img_018.jpg
+2026-11-02 11:32:29 | INFO     | core.trainer | Training 4: processing img_019.jpg
+2026-11-02 11:32:30 | INFO     | core.trainer | Training 4: processing img_020.jpg
+2026-11-02 11:32:30 | INFO     | core.trainer | Training 4: processing img_021.jpg
+2026-11-02 11:32:31 | INFO     | core.trainer | Training 4: processing img_022.jpg
+2026-11-02 11:32:31 | INFO     | core.trainer | Training 4: processing img_023.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_024.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_025.jpg
+2026-11-02 11:32:32 | INFO     | core.trainer | Training 4: processing img_026.jpg
+2026-11-02 11:32:33 | INFO     | core.trainer | Training 4: processing img_027.jpg
+2026-11-02 11:32:33 | INFO     | core.trainer | Training 4: processing img_028.jpg
+2026-11-02 11:32:34 | INFO     | core.trainer | Training 4: processing img_029.jpg
+2026-11-02 11:32:34 | INFO     | core.trainer | Training 4: processing img_030.jpg
+2026-11-02 11:32:35 | INFO     | core.trainer | Training 4: processing img_031.jpg
+2026-11-02 11:32:35 | INFO     | core.trainer | Training 4: processing img_032.jpg
+2026-11-02 11:32:36 | INFO     | core.trainer | Training 4: processing img_033.jpg
+2026-11-02 11:32:36 | INFO     | core.trainer | Training 4: processing img_034.jpg
+2026-11-02 11:32:37 | INFO     | core.trainer | Training 4: processing img_035.jpg
+2026-11-02 11:32:37 | INFO     | core.trainer | Training 4: processing img_036.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_037.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_038.jpg
+2026-11-02 11:32:38 | INFO     | core.trainer | Training 4: processing img_039.jpg
+2026-11-02 11:32:39 | INFO     | core.trainer | Training 4: processing img_040.jpg
+2026-11-02 11:32:39 | INFO     | database.db_manager | Saved embedding for 4
+2026-11-02 11:32:39 | INFO     | core.trainer | Trained 4 on 38/40 images
+2026-11-02 11:32:56 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:33:03 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/5/img_005.jpg 0.5 5
+2026-11-02 11:33:03 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:03 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:33:05 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:05 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 11:33:06 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 67, "y": 64, "w": 170, "h": 178, "student_id": "5", "name": "ann", "confidence": 0.8211595021280959, "attendance_marked": true}]}
+2026-11-02 11:33:06 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:33:03 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:03 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:03 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:33:05 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:05 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 1 newly marked present
+2026-11-02 11:33:06 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Desktop/face_attendance_system/dataset/5/img_005.jpg 0.5 5
+2026-11-02 11:33:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:33:09 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:09 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:33:09 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 67, "y": 64, "w": 170, "h": 178, "student_id": "5", "name": "ann", "confidence": 0.8211595021280959, "attendance_marked": false}]}
+2026-11-02 11:33:09 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:33:07 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:07 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:07 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:33:09 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:09 | INFO     | core.attendance_engine | Processed photo for period 5: 1 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:33:33 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_39_43_Pro.jpg 0.5 5
+2026-11-02 11:33:34 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:34 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:33:35 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:36 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 1 newly marked present
+2026-11-02 11:33:36 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 505, "y": 288, "w": 297, "h": 325, "student_id": "2", "name": "Jean George", "confidence": 0.6441803753485766, "attendance_marked": true}, {"x": 1109, "y": 341, "w": 353, "h": 404, "student_id": "1", "name": "Shankar", "confidence": 0.713284443533347, "attendance_marked": false}]}
+2026-11-02 11:33:36 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:33:34 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:33:34 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:33:34 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:33:35 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:33:36 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 1 newly marked present
+2026-11-02 11:35:15 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_09_39_43_Pro.jpg 0.5 5
+2026-11-02 11:35:16 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:35:16 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:35:18 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:35:18 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 0 newly marked present
+2026-11-02 11:35:19 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 505, "y": 288, "w": 297, "h": 325, "student_id": "2", "name": "Jean George", "confidence": 0.6441803753485766, "attendance_marked": false}, {"x": 1109, "y": 341, "w": 353, "h": 404, "student_id": "1", "name": "Shankar", "confidence": 0.713284443533347, "attendance_marked": false}]}
+2026-11-02 11:35:19 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:35:16 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:35:16 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:35:16 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:35:18 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:35:18 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 2 recognized, 0 newly marked present
+2026-11-02 11:35:31 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:35:32 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:37:54 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:38:01 | INFO     | utils.subprocess_runner | Launching worker: C:\Users\Shankar\miniconda3\envs\face-attendance\python.exe -u C:\Users\Shankar\Desktop\face_attendance_system\scripts\recognize_worker.py C:/Users/Shankar/Pictures/Camera Roll/WIN_20261102_11_37_49_Pro.jpg 0.5 5
+2026-11-02 11:38:01 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:38:01 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+2026-11-02 11:38:03 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:38:04 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:38:04 | INFO     | utils.subprocess_runner | recognize_worker.py stdout:
+{"outcomes": [{"x": 996, "y": 349, "w": 221, "h": 253, "student_id": "1", "name": "Shankar", "confidence": 0.7064419511343123, "attendance_marked": false}, {"x": 636, "y": 186, "w": 172, "h": 205, "student_id": null, "name": null, "confidence": null, "attendance_marked": false}]}
+2026-11-02 11:38:04 | INFO     | utils.subprocess_runner | recognize_worker.py stderr:
+2026-11-02 11:38:01 | INFO     | database.db_manager | Database schema ready at C:\Users\Shankar\Desktop\face_attendance_system\database\attendance.db
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Loading face detector...
+2026-11-02 11:38:01 | INFO     | core.face_detector | Loaded OpenCV DNN face detector
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Face detector loaded
+2026-11-02 11:38:01 | INFO     | core.attendance_engine | Loading face recognizer (imports dlib via face_recognition)...
+C:\Users\Shankar\miniconda3\envs\face-attendance\Lib\site-packages\face_recognition_models\__init__.py:7: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+2026-11-02 11:38:03 | INFO     | core.attendance_engine | Face recognizer loaded
+2026-11-02 11:38:04 | INFO     | core.attendance_engine | Processed photo for period 5: 2 faces, 1 recognized, 0 newly marked present
+2026-11-02 11:41:45 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:41:47 | INFO     | gui.app | Navigated to recognize page
+2026-11-02 11:41:54 | INFO     | gui.app | Navigated to attendance page
+2026-11-02 11:43:21 | INFO     | gui.app | Navigated to students page
+2026-11-02 11:43:40 | INFO     | gui.app | Navigated to register page
+2026-11-02 11:44:01 | INFO     | gui.app | Navigated to students page
+2026-11-02 11:51:52 | INFO     | __main__ | Application closed

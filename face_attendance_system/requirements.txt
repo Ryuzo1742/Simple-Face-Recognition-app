@@ -1,0 +1,45 @@
+customtkinter>=5.2.0
+opencv-python>=4.8.0,<5.0
+numpy>=1.24.0
+Pillow>=10.0.0
+requests>=2.31.0
+setuptools>=65.0.0,<82
+
+# --- Why setuptools is capped below 82 ---
+# face_recognition depends on face_recognition_models, which imports
+# pkg_resources to locate its bundled model files. pkg_resources used to
+# ship as part of setuptools, but setuptools 82.0.0 (Feb 2026) removed
+# pkg_resources entirely — a plain `pip install setuptools` now grabs a
+# version that doesn't have it, causing "ModuleNotFoundError: No module
+# named 'pkg_resources'" even with setuptools installed.
+
+# --- Why OpenCV is capped below 5.0 ---
+# OpenCV 5.0 (released June 2026) removed cv2.dnn.readNetFromCaffe()
+# entirely as part of a DNN engine redesign — the Caffe/Darknet parsers
+# were dropped in favor of ONNX. Our face detector (core/face_detector.py)
+# uses the Caffe-based SSD model from models/, so it needs OpenCV 4.x.
+# Migrating to an ONNX face-detection model would remove this cap; see
+# core/face_detector.py's docstring for notes on that future upgrade.
+
+# --- Recognition engine (Phase 5) ---
+# face_recognition needs dlib, which is a compiled C++ extension.
+# On Python 3.13+, dlib has NO prebuilt wheel on PyPI yet — a plain
+# `pip install -r requirements.txt` will try to compile it from source
+# and can hang or fail with "Failed to build installable wheels" unless
+# you have CMake + a C++ build toolchain installed.
+#
+# Recommended for Python 3.13+: use conda instead of pip for this one
+# package (conda-forge DOES have prebuilt dlib builds for 3.13):
+#     conda install -c conda-forge dlib
+#     pip install -r requirements.txt   (face_recognition will then find
+#                                          dlib already satisfied)
+# See environment.yml for a ready-made conda environment that does this
+# in one step.
+#
+# If you're on Python 3.10-3.12 and want to stick with plain pip, dlib
+# usually installs fine directly and you can uncomment the two lines
+# below. face_recognition_models isn't published on PyPI, so it needs
+# its own git-based install (requires git on your PATH) — pip won't
+# pull it in automatically as a dependency:
+# face_recognition>=1.3.0
+# git+https://github.com/ageitgey/face_recognition_models

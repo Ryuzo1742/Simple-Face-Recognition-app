@@ -1,0 +1,41 @@
+# One-step setup for Python 3.13+ that avoids compiling dlib from source.
+#
+# Usage:
+#   conda env create -f environment.yml
+#   conda activate face-attendance
+#   python main.py
+#
+# Requires git to be installed and on your PATH (used below to fetch
+# face_recognition_models, which isn't published on PyPI).
+#
+# Why this exists: pip has no prebuilt dlib wheel for Python 3.13 yet, so
+# `pip install dlib` (a dependency of face_recognition) tries to compile
+# it locally and often hangs or fails with "Failed to build installable
+# wheels" (see requirements.txt for the full explanation). conda-forge
+# publishes a prebuilt dlib build for 3.13 on Windows, Linux, and macOS,
+# so installing dlib through conda first sidesteps the problem entirely.
+#
+# opencv is capped below 5.0 here too — OpenCV 5.0 (June 2026) removed
+# cv2.dnn.readNetFromCaffe(), which our face detector relies on. See
+# requirements.txt for the full explanation.
+#
+# setuptools is capped below 82 because face_recognition_models needs
+# pkg_resources, which setuptools 82.0.0 (Feb 2026) removed entirely —
+# an unpinned setuptools install no longer includes it at all.
+name: face-attendance
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - dlib
+  - numpy>=1.24.0
+  - setuptools>=65.0.0,<82
+  - git
+  - pip
+  - pip:
+      - customtkinter>=5.2.0
+      - opencv-python>=4.8.0,<5.0
+      - Pillow>=10.0.0
+      - requests>=2.31.0
+      - face_recognition>=1.3.0
+      - git+https://github.com/ageitgey/face_recognition_models
